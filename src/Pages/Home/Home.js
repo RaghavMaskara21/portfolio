@@ -4,7 +4,7 @@ import './Home.css'
 import Header from '../../Components/Header'
 function Home() {
   return (
-    <div className='text-light'>
+    <div className='container text-light'>
         <Header/>
         
         <div className='container textblock'>

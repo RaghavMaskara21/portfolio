@@ -1,3 +1,61 @@
-.bg-dark{
-    background-color: black;
-  }
+.bg-dark {
+  background-color: black;
+}
+
+.aboutsection {
+  color: white;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.abtheading {
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px solid red;
+  line-height: 0.1em;
+  margin: 10% 0;
+}
+
+.abtheading span {
+  margin: 20%;
+  padding: 0 10px;
+}
+.divpic{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5%;
+}
+.mypic{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    
+}
+.sk1{
+    border-bottom: 1px solid red;
+    margin: 2px 0;
+    width: 70%;
+}
+.sk2{
+    border-bottom: 1px solid red;
+    margin: 2px 0;
+    width: 85%;
+}
+.sk3{
+    border-bottom: 1px solid red;
+    margin: 2px 0;
+    width: 75%;
+}
+.sk4{
+    border-bottom: 1px solid red;
+    margin: 2px 0;
+    width: 90%;
+}
+.sk5{
+    border-bottom: 1px solid red;
+    margin: 2px 0;
+    width: 95%;
+}
