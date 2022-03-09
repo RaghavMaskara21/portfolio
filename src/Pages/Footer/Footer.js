@@ -1,8 +1,12 @@
 import React from 'react'
+import './Footer.css'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className='container footer_section'>
+      <hr className='foothr'></hr>
+      Footer
+      </div>
   )
 }
 

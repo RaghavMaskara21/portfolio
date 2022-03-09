@@ -3,12 +3,12 @@ import './about.css'
 import mypic from '../../images/mypic.jpg'
 function About() {
   return (
-    <div className='container aboutsection' id="About">
-        <h2 class="abtheading"><span>ABOUT</span></h2>
+    <div className='container about_section' id="About">
+        <h2 class="abt_heading"><span>ABOUT</span></h2>
         <div className='container d-flex'>
             <div className='row'>            
             <div className='col-lg-4 divpic' >
-                <img src={mypic} className="mypic" ></img>
+                <img src={mypic} className="mypic" alt='raghav_maskara' ></img>
             </div>
             <div className='col-lg-8'>
                 <p>

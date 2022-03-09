@@ -1,0 +1,16 @@
+.projects_section {
+    color: white;
+    margin: 10% auto;
+  }
+  .projects_heading {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid red;
+    line-height: 0.1em;
+    margin: 10% 0;
+  }
+  
+  .projects_heading span {
+    margin: 20%;
+    padding: 0 10px;
+  }
