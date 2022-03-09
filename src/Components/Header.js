@@ -4,7 +4,7 @@ import logo from "../images/logo.png";
 function Header() {
   return (
     <div>
-      <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className="fs-4">
+      <Navbar variant="dark" expand="lg" sticky="top" className="fs-4">
         <Container>
         <Navbar.Brand href="#Home">
           <img

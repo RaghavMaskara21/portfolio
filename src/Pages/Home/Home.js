@@ -1,10 +1,10 @@
 import React from 'react'
 import './Home.css'
 
-import Header from './Components/Header'
+import Header from '../../Components/Header'
 function Home() {
   return (
-    <div className='bg-dark text-light'>
+    <div className='text-light'>
         <Header/>
         
         <div className='container textblock'>
