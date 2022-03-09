@@ -1,12 +1,12 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Home from './Home';
 
 function App() {
   return (
     <div className="App">
-      hi
-      <button className='btn btn-primary'>fffffffffffff</button>
+      <Home/>
     </div>
   );
 }
