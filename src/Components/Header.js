@@ -1,19 +1,21 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from "../images/logo.png";
+import logo from "../images/logo1.png";
+import './Header.css'
 function Header() {
   return (
     <div>
-      <Navbar variant="dark" expand="lg" sticky="top" className="fs-4">
+      <Navbar variant="dark" expand="lg" fixed="top" className="fs-4">
         <Container>
-        <Navbar.Brand href="#Home">
+        
           <img
             alt=""
             src={logo}
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
+            width="55"
+            height="55"
+            className="d-inline-block align-top mylogo"
           />{" "}
+          <Navbar.Brand href="#Home">
           RAGHAV MASKARA</Navbar.Brand>
           
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
