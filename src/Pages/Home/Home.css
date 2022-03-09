@@ -1,24 +1,48 @@
-.textblock{
-    margin: 10% 10%;
-    padding-bottom: 10%;
+.textblock {
+    margin-top: 10%;
+  /* margin: 10% 10%;
+  padding-bottom: 10%; */
+  height: 60vh;
+}
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.text1 {
+  color: #ff4c29;
+  font-size: em;
+}
+.text2 {
+  font-family: "Montserrat";
+  /* text-align: center; */
+  color: #fff;
+  /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  letter-spacing: 1px;
 }
 
-.text1{
-    color: #FF4C29;
-    font-size: em;
+.name {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 0.75;
+  margin: 10px 0;
 }
-.text2{
-
+.text3 {
+  color: #2c394b;
 }
-.text3{
-    color: #2C394B;
+.text4 {
 }
-.text4{
-
+.text5 {
 }
-.text5{
-
+.bg-dark {
+  background-color: black;
 }
-.bg-dark{
-    background-color: black;
-  }

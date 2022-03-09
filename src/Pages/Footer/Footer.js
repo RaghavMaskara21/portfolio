@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className='container footer_section'>
       <hr className='foothr'></hr>
-      Footer
+      © 2022 Raghav Maskara, Inc
       </div>
   )
 }

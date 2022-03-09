@@ -12,8 +12,8 @@ function Home() {
                 <div className='text1 fs-5'>
                 <p>Hi there, I'm</p>
                 </div>
-                <div className='text2 fs-1'>
-                <p>Raghav Maskara</p>
+                <div className='text2'>
+                <p className='name'>Raghav Maskara</p>
                 </div>
                 <div className='text3 fs-2'>
                 <p>I make awesome websites</p>

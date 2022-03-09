@@ -17,3 +17,21 @@
  #afterSubmit{
     display: none;
   } 
+
+  /* .white-mode {
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #122;
+    border-radius: 3px;
+    color: #FFF;
+    transition: .35s ease-in-out;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: "Montserrat";
+    }
+    
+    .white-mode:hover {
+    background-color: #FFF;
+    color: #122;
+    } */

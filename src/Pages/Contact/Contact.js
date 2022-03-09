@@ -45,14 +45,14 @@ function Contact() {
           <Form.Label>Message</Form.Label>
             <FormControl as="textarea" aria-label="message" name="message"  placeholder="Enter Message" required/>
             </Form.Group>
-          <Button variant="danger" type="submit" value="Send">
-            Submit
+          <Button variant="danger" type="submit" value="Send" >
+            Send Message
           </Button>
         </Form>
       </div>
       <div id="afterSubmit">
         <h1>Thank You</h1>
-        <h2>Your Email has been Sent Successfully.</h2>
+        <h2>Your message has been successfully sent, i'll reply as soon as possible.</h2>
         <Button variant="danger" onClick={sendanotheremail}>
             Send another Email
           </Button>
