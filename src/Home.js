@@ -7,21 +7,21 @@ function Home() {
     <div className='bg-dark text-light'>
         <Header/>
         
-        <div className='container'>
+        <div className='container textblock'>
             <div className='homeContent'>
-                <div className='text1'>
+                <div className='text1 fs-5'>
                 <p>Hi there, I'm</p>
                 </div>
-                <div className='text2'>
+                <div className='text2 fs-1'>
                 <p>Raghav Maskara</p>
                 </div>
-                <div className='text3'>
+                <div className='text3 fs-2'>
                 <p>I make awesome websites</p>
                 </div>
-                <div className='text4'>
+                <div className='text4 fs-6'>
                 <p>Full stack web developer</p>
                 </div>
-                <div className='text5'>
+                <div className='text5 fs-6'>
                 <p>Based in Surat, India.</p>
                 </div>
             </div>
