@@ -6,7 +6,7 @@ import HD from '../../images/hd.png'
 import BB from '../../images/bbad.png'
 function Projects() {
   return (
-    <div className="container projects_section" id="Projects">
+    <div className="container projects_section" id="Projects" >
       <h2 class="projects_heading">
         <span>PROJECTS</span>
       </h2>
