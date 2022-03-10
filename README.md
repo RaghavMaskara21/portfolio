@@ -1,5 +1,7 @@
 Todo:
 Create scroll to top button
+Download Resume
+Let's Talk
 
 # Getting Started with Create React App
 

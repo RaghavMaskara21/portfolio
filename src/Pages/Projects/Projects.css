@@ -14,3 +14,9 @@
     margin: 20%;
     padding: 0 10px;
   }
+
+  .project1{
+    width: "25rem";
+    border:"1px solid red" !important;
+  }
+  
