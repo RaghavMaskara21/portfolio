@@ -1,17 +1,34 @@
+
+#Home{
+background-image: url('../../images/header-background.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+width: 100%;
+background-color: transparent;
+text-align:center; 
+height: 95vh;
+min-height: 500px;
+}
 .textblock {
-    margin-top: 10%;
   /* margin: 10% 10%;
   padding-bottom: 10%; */
-  height: 60vh;
+  margin-top: 5%;
+
+  background-color: transparent;
 }
 .homeContent {
   display: flex;
   flex-direction: column;
   margin: auto;
+  background: none;
+  background-color: transparent;
 }
 .text1 {
+  margin-top: 10%;
   color: #ff4c29;
   font-size: em;
+  background-color: transparent;
 }
 .text2 {
   font-family: "Montserrat";
@@ -22,6 +39,10 @@
     align-items: center;
     justify-content: center; */
   letter-spacing: 1px;
+  background-color: transparent;
+}
+.homeContent p{
+  background-color: transparent;
 }
 
 .name {
@@ -35,14 +56,28 @@
   font-weight: bold;
   line-height: 0.75;
   margin: 10px 0;
+  background-color: transparent;
 }
 .text3 {
   color: #2c394b;
+  background-color: transparent;
 }
 .text4 {
+  background-color: transparent;
 }
 .text5 {
+  background-color: transparent;
+}
+.text6 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.text6 .btn{
+  background-color: #017791;
 }
 .bg-dark {
   background-color: black;
+  background-color: transparent;
 }

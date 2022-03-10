@@ -2,6 +2,7 @@ Todo:
 Create scroll to top button
 Download Resume
 Let's Talk
+Fix navbar highlight
 
 # Getting Started with Create React App
 

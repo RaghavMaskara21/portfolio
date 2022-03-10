@@ -4,7 +4,7 @@ import './Home.css'
 import Header from '../../Components/Header'
 function Home() {
   return (
-    <div className='container text-light' id="Home">
+    <div className='text-light' id="Home">
         <Header/>
         
         <div className='container textblock'>
@@ -23,6 +23,10 @@ function Home() {
                 </div>
                 <div className='text5 fs-6'>
                 <p>Based in Surat, India.</p>
+                </div>
+                <div className='text6'>
+                  <button className='btn btn-danger mx-5'>Resume</button>
+                  <button className='btn btn-danger mx-5'>Let's Talk</button>
                 </div>
             </div>
         </div>
