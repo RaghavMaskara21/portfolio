@@ -18,6 +18,10 @@
     display: none;
   } 
 
+  .bkform{
+    background-color: #1a1a1a;
+  }
+
   /* .white-mode {
     text-decoration: none;
     padding: 7px 10px;
