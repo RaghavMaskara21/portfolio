@@ -13,7 +13,7 @@ function Projects() {
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
-            <Card style={{ width: "25rem" }} className="project1">
+            <Card style={{ width: "100%" }} className="project1">
               <Card.Img variant="top" src={HA} className="p1img" />
               <Card.Body>
                 <Card.Title>Heavenly Attractions</Card.Title>
@@ -27,7 +27,7 @@ function Projects() {
             </Card>
           </div>
           <div className="col-lg-4">
-            <Card style={{ width: "25rem" }}>
+            <Card style={{ width: "100%" }}>
               <Card.Img variant="top" src={HD} />
               <Card.Body>
                 <Card.Title>Hay Day</Card.Title>
@@ -41,7 +41,7 @@ function Projects() {
             </Card>
           </div>
           <div className="col-lg-4">
-            <Card style={{ width: "25rem" }}>
+            <Card style={{ width: "100%" }}>
               <Card.Img variant="top" src={BB} />
               <Card.Body>
                 <Card.Title>Breaking Bad</Card.Title>

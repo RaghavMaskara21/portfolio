@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from "../images/logo1.png";
+import logo from "../images/logo2.png";
 import './Header.css'
 function Header() {
   return (
@@ -11,12 +11,12 @@ function Header() {
           <img
             alt=""
             src={logo}
-            width="55"
-            height="55"
+            width="90"
+            height="40"
             className="d-inline-block align-top mylogo"
           />{" "}
-          <Navbar.Brand href="#Home">
-          RAGHAV MASKARA</Navbar.Brand>
+          {/* <Navbar.Brand href="#Home">
+          RAGHAV MASKARA</Navbar.Brand> */}
           
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
