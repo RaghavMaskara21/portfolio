@@ -1,11 +1,9 @@
 import React from 'react'
 import './Home.css'
 
-import Header from '../../Components/Header'
 function Home() {
   return (
     <div className='text-light' id="Home">
-        <Header/>
         
         <div className='container textblock'>
             <div className='homeContent'>
@@ -25,8 +23,8 @@ function Home() {
                 <p>Based in Surat, India.</p>
                 </div>
                 <div className='text6'>
-                  <button className='btn btn-danger mx-5'>Resume</button>
-                  <button className='btn btn-danger mx-5'>Let's Talk</button>
+                  <a className='btn btn-danger mx-5' href="https://bit.ly/RM-res21" target="_blank" rel="noopener noreferrer">Resume</a>
+                  <a className='btn btn-danger mx-5' href='#Contact'>Let's Talk</a>
                 </div>
             </div>
         </div>

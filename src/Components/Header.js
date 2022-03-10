@@ -21,6 +21,7 @@ function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Nav >
+            <Nav.Link href="#Home" className="mx-2">Home</Nav.Link>
               <Nav.Link href="#About" className="mx-2">About</Nav.Link>
               <Nav.Link href="#Experience" className="mx-2">Experience</Nav.Link>
               <Nav.Link href="#Projects" className="mx-2">Projects</Nav.Link>

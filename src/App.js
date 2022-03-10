@@ -7,10 +7,12 @@ import Experience from './Pages/Experience/Experience';
 import Footer from './Pages/Footer/Footer';
 import Home from './Pages/Home/Home';
 import Projects from './Pages/Projects/Projects';
+import Header from './Components/Header'
 
 function App() {
   return (
     <div className="App">
+      <Header/>
       <Home/>
       <About/>
       <Experience/>
