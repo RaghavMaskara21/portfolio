@@ -24,7 +24,6 @@
     margin: auto;
     justify-content: center;
     display: flex;
-    margin-bottom: 5%;
 }
 .mypic{
     width: 270px;
@@ -32,9 +31,21 @@
     border-radius: 50%;
     
 }
-.righticon{
-    color: red;
+.col-6 .righticon svg path{
+    color: red ;
 }
+#txt1{
+    color: #ff0000e3;
+    margin: 2% 0;
+    font-size: 3rem;
+}
+#txt2{
+margin: 6% 0;
+}
+#txt3{
+margin-bottom: 7%;
+}
+
 
 
 
