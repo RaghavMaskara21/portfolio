@@ -16,7 +16,18 @@
   }
 
   .project1{
-    width: "25rem";
-    border:"1px solid red" !important;
+    margin: 2% 0 !important;
+  }
+  .project2{
+    margin: 2% 0 !important;
+  }
+  .project3{
+    margin: 2% 0 !important;
+  }
+  .card{
+    border-color:#edc96191;
+    border-radius: 0;
+    height: 100%;
+    margin: 2% 1%;    
   }
   

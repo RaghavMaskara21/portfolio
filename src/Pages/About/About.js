@@ -34,7 +34,7 @@ function About() {
 
                 <div className='container fs-5'>
                 <div className='row'>
-                <div className='col-6'>
+                <div className='col-lg-6'>
                   <div>
                     <p> <span className='righticon'> <FaAngleRight/></span> <strong> Birthday:</strong> 24 January 2001</p>
                   </div>
@@ -45,7 +45,7 @@ function About() {
                     <p> <span className='righticon'> <FaAngleRight/></span> <strong> City:</strong> Surat, India</p>
                   </div>
                 </div>
-                <div className='col-6'>
+                <div className='col-lg-6'>
                 <div>
                     <p> <span className='righticon'> <FaAngleRight/></span> <strong> Age:</strong> 21 </p>
                   </div>

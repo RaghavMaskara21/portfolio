@@ -1,9 +1,23 @@
 .footer_section {
     color: white;
-    margin: 10% auto;
+    margin: 3% auto;
   }
 
   .foothr{
       color: red;
       opacity: 1;
   }
+.ico a{
+    font-size: 3rem;
+    display: inline-block;
+    color: #fff;
+    padding: 0 1%;
+    margin-right: 4px;
+    text-align: center;
+}
+.ico{
+    margin: auto;
+}
+.ft-txt{
+    text-align: end;
+}
