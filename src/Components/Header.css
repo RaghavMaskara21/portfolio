@@ -5,4 +5,11 @@
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
     color: #fff;
     border-bottom: 1px solid red;
+    
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(207, 179, 106, 0.8);
 }
