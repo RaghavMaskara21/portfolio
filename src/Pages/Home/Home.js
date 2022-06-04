@@ -23,7 +23,7 @@ function Home() {
                 <p>Based in Surat, India.</p>
                 </div>
                 <div className='text6'>
-                  <a className='btn btn-danger mx-5' href="https://bit.ly/RM-res21" target="_blank" rel="noopener noreferrer">Resume</a>
+                  <a className='btn btn-danger mx-5' href="https://bit.ly/RM-resume" target="_blank" rel="noopener noreferrer">Resume</a>
                   <a className='btn btn-danger mx-5' href='#Contact'>Let's Talk</a>
                 </div>
             </div>
