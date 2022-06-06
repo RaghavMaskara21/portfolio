@@ -16,7 +16,7 @@ function About() {
                 <h1 id="txt1">Software Developer</h1>
                 {/* <p>I am a Software Developer based in India.</p> */}
                 <p id='txt2'>
-                Hello there, my name is Raghav Maskara and I am currently studying Electronics and Communication Engineering and have always had a keen interest in programming and development. Since the last two years, I've been really crazy about web or full stack development and have created various projects as well. I mainly develop MERN stack apps, i'm open to new opportunities.
+                Hello there, my name is Raghav Maskara and I am currently studying Electronics and Communication Engineering at IIIT Surat and have always had a keen interest in programming and development. Since the last two years, I've been really crazy about web or full stack development and have created various projects as well. I mainly develop MERN stack apps, i'm open to new opportunities.
                 </p>
                 <p id='txt3'>
                 I can't stop learning new things; the more, the better.
