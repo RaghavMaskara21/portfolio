@@ -17,13 +17,13 @@ function Home() {
                 <p>I make awesome websites</p>
                 </div>
                 <div className='text4'>
-                <p>Full stack web developer</p>
+                <p>Backend developer</p>
                 </div>
                 <div className='text5'>
-                <p>Based in Surat, India.</p>
+                <p>Based in Bangalore, India.</p>
                 </div>
                 <div className='text6'>
-                  <a className='btn btn-danger mx-5' href="https://bit.ly/RM-resume" target="_blank" rel="noopener noreferrer">Resume</a>
+                  <a className='btn btn-danger mx-5' href="https://bit.ly/Raghav-SDE" target="_blank" rel="noopener noreferrer">Resume</a>
                   <a className='btn btn-danger mx-5' href='#Contact'>Let's Talk</a>
                 </div>
             </div>

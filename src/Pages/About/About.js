@@ -16,7 +16,7 @@ function About() {
                 <h1 id="txt1">Software Developer</h1>
                 {/* <p>I am a Software Developer based in India.</p> */}
                 <p id='txt2'>
-                Hello there, my name is Raghav Maskara and I am currently studying Electronics and Communication Engineering at IIIT Surat and have always had a keen interest in programming and development. Since the last two years, I've been really crazy about web or full stack development and have created various projects as well. I mainly develop MERN stack apps, i'm open to new opportunities.
+                Hello there, I'm Raghav Maskara, a Software Development Engineer with a BTech from the Indian Institute of Information Technology Surat, currently making strides at Stanverse Technologies in Bangalore. I specialize in backend development, leveraging skills in C++, Golang, Python, and JavaScript, alongside technologies like NodeJs, NestJs, and AWS. My projects, like the Hay Day Calculator, highlight my passion for creating user-centric solutions. With achievements in prestigious coding contests and a knack for innovation, I aim to explore, grow, and contribute to the tech world. Thanks for stopping by!
                 </p>
                 <p id='txt3'>
                 I can't stop learning new things; the more, the better.
@@ -42,12 +42,12 @@ function About() {
                     <p> <span className='righticon'> <FaAngleRight/></span> <strong> Website:</strong> www.raghavmaskara.com </p>
                   </div>
                   <div>
-                    <p> <span className='righticon'> <FaAngleRight/></span> <strong> City:</strong> Surat, India</p>
+                    <p> <span className='righticon'> <FaAngleRight/></span> <strong> City:</strong> Bangalore, India</p>
                   </div>
                 </div>
                 <div className='col-lg-6'>
                 <div>
-                    <p> <span className='righticon'> <FaAngleRight/></span> <strong> Age:</strong> 21 </p>
+                    <p> <span className='righticon'> <FaAngleRight/></span> <strong> Age:</strong> 23 </p>
                   </div>
                   <div>
                     <p> <span className='righticon'> <FaAngleRight/></span> <strong> Email:</strong> raghavmaskara@gmail.com</p>

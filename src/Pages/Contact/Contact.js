@@ -12,7 +12,7 @@ function Contact() {
     document.getElementById('afterSubmit').style.display='block';
     e.preventDefault();
 
-    emailjs.sendForm('service_j07p02b', 'Portfolio', form.current, 'c5Y7sERr7ycnMg0XQ') //c5Y7sERr7ycnMg0XQ
+    emailjs.sendForm('service_lx83n9t', 'template_vt5mapg', form.current, 'c5Y7sERr7ycnMg0XQ') //c5Y7sERr7ycnMg0XQ
       .then((result) => {
           console.log(result.text);          
       }, (error) => {        
