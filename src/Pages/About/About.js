@@ -44,23 +44,6 @@ function About() {
               </div>
             </div>
 
-            <div className='skills-section'>
-              <h3>Technical Skills</h3>
-              <div className='row'>
-                <div className='col-md-4'>
-                  <h4>Languages</h4>
-                  <p>C++, Golang, Java, Python, JavaScript, TypeScript</p>
-                </div>
-                <div className='col-md-4'>
-                  <h4>Frameworks</h4>
-                  <p>Node.js, NestJS, React, AWS, Redis, RabbitMQ</p>
-                </div>
-                <div className='col-md-4'>
-                  <h4>Databases</h4>
-                  <p>SQL, MongoDB, Redis, Firestore</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
