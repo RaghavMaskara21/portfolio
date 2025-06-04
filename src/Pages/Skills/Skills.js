@@ -5,126 +5,124 @@ import { FaAngleRight } from 'react-icons/fa';
 
 function Skills() {
   return (
-    <div className='experience_section' id="Skills">
-      <h2 className='exp_heading'><span>SKILLS</span></h2>
+    <div className='container skills-section' id="Skills">
+      <h2 className='skills-heading'><span>SKILLS</span></h2>
       
       <div className='container'>
-        <div className='experience-card'>
-          <div className='experience-header'>
-            <h3 className='position'>Programming Languages</h3>
-            <div className='company-info'>
-              <FaCode className='righticon' />
-              <div className='meta-info'>
-                <span>Proficient in multiple languages</span>
+        <div className='skills-grid'>
+          <div className='skill-column'>
+            <div className='skill-header'>
+              <FaCode className='skill-icon' />
+              <h3>Languages</h3>
+            </div>
+            <div className='skill-list'>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>C++</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>Golang</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>Python</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>JavaScript</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>TypeScript</span>
               </div>
             </div>
           </div>
-          <div className='experience-content'>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>C++</strong> - Advanced proficiency in object-oriented programming and data structures</p>
-            </div>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>Golang</strong> - Extensive experience in building high-performance backend services</p>
-            </div>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>Python</strong> - Strong background in scripting and automation</p>
-            </div>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>JavaScript/TypeScript</strong> - Full-stack development with modern frameworks</p>
-            </div>
-          </div>
-        </div>
 
-        <div className='experience-card'>
-          <div className='experience-header'>
-            <h3 className='position'>Backend Technologies</h3>
-            <div className='company-info'>
-              <FaServer className='righticon' />
-              <div className='meta-info'>
-                <span>Server-side development expertise</span>
+          <div className='skill-column'>
+            <div className='skill-header'>
+              <FaServer className='skill-icon' />
+              <h3>Backend</h3>
+            </div>
+            <div className='skill-list'>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>Node.js</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>NestJS</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>Express.js</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>RESTful APIs</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>Microservices</span>
               </div>
             </div>
           </div>
-          <div className='experience-content'>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>Node.js</strong> - Building scalable REST APIs and microservices</p>
-            </div>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>NestJS</strong> - Enterprise-grade backend applications</p>
-            </div>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>Express.js</strong> - Lightweight and flexible web applications</p>
-            </div>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>RESTful APIs</strong> - Designing and implementing robust APIs</p>
-            </div>
-          </div>
-        </div>
 
-        <div className='experience-card'>
-          <div className='experience-header'>
-            <h3 className='position'>Databases & Caching</h3>
-            <div className='company-info'>
-              <FaDatabase className='righticon' />
-              <div className='meta-info'>
-                <span>Data management and optimization</span>
+          <div className='skill-column'>
+            <div className='skill-header'>
+              <FaDatabase className='skill-icon' />
+              <h3>Databases</h3>
+            </div>
+            <div className='skill-list'>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>MongoDB</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>SQL</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>Redis</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>Firestore</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>RabbitMQ</span>
               </div>
             </div>
           </div>
-          <div className='experience-content'>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>MongoDB</strong> - NoSQL database design and optimization</p>
-            </div>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>SQL</strong> - Relational database management and query optimization</p>
-            </div>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>Redis</strong> - In-memory data structure store and caching</p>
-            </div>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>Firestore</strong> - Cloud-based NoSQL database</p>
-            </div>
-          </div>
-        </div>
 
-        <div className='experience-card'>
-          <div className='experience-header'>
-            <h3 className='position'>Cloud & DevOps</h3>
-            <div className='company-info'>
-              <FaCloud className='righticon' />
-              <div className='meta-info'>
-                <span>Cloud infrastructure and deployment</span>
+          <div className='skill-column'>
+            <div className='skill-header'>
+              <FaCloud className='skill-icon' />
+              <h3>DevOps</h3>
+            </div>
+            <div className='skill-list'>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>AWS</span>
               </div>
-            </div>
-          </div>
-          <div className='experience-content'>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>AWS</strong> - Cloud services and infrastructure management</p>
-            </div>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>Docker</strong> - Containerization and microservices</p>
-            </div>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>CI/CD</strong> - Continuous Integration and Deployment</p>
-            </div>
-            <div className='achievement'>
-              <FaAngleRight className='righticon' />
-              <p><strong>Git</strong> - Version control and collaboration</p>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>Docker</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>CI/CD</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>Git</span>
+              </div>
+              <div className='skill-item'>
+                <FaAngleRight className='righticon' />
+                <span>Linux</span>
+              </div>
             </div>
           </div>
         </div>
