@@ -15,9 +15,9 @@ function Footer() {
         <a href='https://twitter.com/MaskaraRaghav' target="_blank" rel="noreferrer" className=' ft-ico'> <IoLogoTwitter /></a>
         <a href='https://www.instagram.com/raghavmaskara/' target="_blank" rel="noreferrer" className=' ft-ico'> <IoLogoInstagram /></a>
         <a href='https://www.linkedin.com/in/raghavmaskara/' target="_blank" rel="noreferrer" className=' ft-ico'> <IoLogoLinkedin /></a>
-        <a href='https://www.raghavmaskara.com' target="_blank" rel="noreferrer" className=' ft-ico'> <IoIosGlobe /></a>
+        <a href='https://raghavmaskara.shootingspeed.com/' target="_blank" rel="noreferrer" className=' ft-ico'> <IoIosGlobe /></a>
       </div>
-      <p className='ft-txt my-5 fs-4 col-lg-6'>© 2022 Raghav Maskara</p>
+      <p className='ft-txt my-5 fs-4 col-lg-6'>© 2025 Raghav Maskara</p>
       </div>
       </div>
       </div>

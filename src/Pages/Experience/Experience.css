@@ -1,16 +1,114 @@
-.experience_section {
+.experience-section {
     color: white;
     margin: 10% auto;
-  }
-  .exp_heading {
+}
+
+.experience-heading {
     width: 100%;
     text-align: left;
     border-bottom: 1px solid red;
     line-height: 0.1em;
     margin: 10% 0;
-  }
-  
-  .exp_heading span {
+}
+
+.experience-heading span {
     margin: 20%;
     padding: 0 10px;
-  }
+}
+
+.experience-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.experience-item {
+    background: rgba(255, 255, 255, 0.05);
+    
+    transition: transform 0.3s ease;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.experience-header {
+    /* margin-bottom: 25px; */
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(220, 53, 69, 0.3);
+}
+
+.company-info h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+}
+
+.position {
+    color: #dc3545;
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+.duration, .location {
+    color: #e0e0e0;
+    font-size: 0.9rem;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon {
+    color: #dc3545;
+    font-size: 0.9rem;
+}
+
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.achievement {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 1rem;
+    color: #e0e0e0;
+    line-height: 1.5;
+}
+
+.achievement:hover {
+    color: #ffffff;
+}
+
+.righticon {
+    color: #dc3545;
+    font-size: 1rem;
+    margin-top: 3px;
+}
+
+.achievement strong {
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .experience-section {
+        padding: 50px 0;
+    }
+    
+    .experience-item {
+        padding: 20px;
+    }
+    
+    .company-info h3 {
+        font-size: 1.3rem;
+    }
+    
+    .achievement {
+        font-size: 0.9rem;
+    }
+}
